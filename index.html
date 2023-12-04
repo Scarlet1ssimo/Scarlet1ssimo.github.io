@@ -1,1 +1,191 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Basic Page Needs––––––––––––––––––––––––––– -->
+
+  <head>
+    <meta http-equiv="content-type" content="text/html" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!--SEO meta tags-->
+    <meta name="description" content="My personal blog" />
+    <meta name="keywords" content="blog" />
+    <meta name="author" content="Muchen Xu" />
+    <!--    Change the index to your website's name-->
+    <title>Muchen Xu's Website</title>
+    <!-- Bootstrap Core CSS ––––––––––––––––––––––––––– -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS ––––––––––––––––––––––––––– -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- fontawesome ––––––––––––––––––––––––––– -->
+    <script src="https://kit.fontawesome.com/5c9f2dfb26.js"></script>
+    <!-- To add a google font and paste the link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="100">
+    <nav
+      class="navbar navbar-light navbar-expand-sm navbackground px-3 fixed-top"
+    >
+      <!--     add d-block d-sm-none class name if you just want the brand name to appear in the mobile view.-->
+      <a class="navbar-brand page-scroll" href="#view">Scarlet1ssimo</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--        Try justify-content-start, justify-content-end or justify-content-between, justify-content-around to see different layout styles for the navigation.-->
+      <div
+        class="collapse navbar-collapse justify-content-left"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#about"
+              >Bio <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#news">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#publication">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--    main content starts from here. Use container or container-fluid-->
+    <div class="container-fluid header" id="view">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-sm-8 align-items-center">
+          <h1 class="text-center">Muchen Xu</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid me" id="about">
+      <!-- <div class="row justify-content-center align-items-center">
+        <div class="col-lg-12">
+          <h2 class="text-center">Bio</h2>
+        </div>
+      </div> -->
+      <div class="row justify-content-center align-items-center">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3 align-items-center">
+          <img class="img-fluid" src="img/qwq.png" alt="qwq" />
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-12">
+              <h2 class="text-center">Bio</h2>
+            </div>
+          </div>
+          <p>
+            I am a second year MCS master student at University of Illinois at
+            Urbana Champaign, doing research in Illinois LLVM Compiler Research
+            Lab, advised by Prof. Vikram Adve.
+          </p>
+          <p>
+            My research interest lies in compiler optimizations, automated
+            optimized code generation, performance engineering, and program
+            synthesis. I have a strong background in algorithms and data
+            structures. I look forward to working on questions that address
+            real-world needs.
+          </p>
+          <a href="/resume.pdf" class="btn btn-outline-dark" target="_blank"
+            >CV</a
+          >
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+    </div>
+
+    <div class="container-fluid view" id="news">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-12">
+          <h2 class="text-center">News</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-2"><b>December 2023</b></div>
+        <div class="col-sm-6">My website came out!</div>
+      </div>
+    </div>
+    <div class="container-fluid me" id="publication">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-12">
+          <h2 class="text-center">Publications</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-9">
+          <ul>
+            <li>
+              Akash Kothari, Abdul Rafae Noor, <b>Muchen Xu</b>, Hassam Uddin,
+              Dhruv Baronia, Stefanos Baziotis, Vikram Adve, Charith Mendis,
+              Sudipta Sengupta. “Hydride: A Synthesis-based Retargetable Code
+              Generation Framework for Modern Hardware Architectures”. Published
+              at ASPLOS 2024.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid header text-center" id="contact">
+      <div class="row justify-content-center align-items-center padding">
+        <div class="col-sm-12">
+          <h2 style="color: #e8e8e8">Contact</h2>
+        </div>
+
+        <div class="col-sm-12">
+          <a href="mailto:muchenx2@illinois.edu">
+            <h3 style="color: #e8e8e8">muchenx2 [at] illinois.edu</h3>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js "></script>
+    <script type="text/javascript" src="js/animation.js"></script>
+  </body>
+</html>
